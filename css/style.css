@@ -1,0 +1,325 @@
+@charset "utf-8";
+body {
+	font: normal 18px/1.7 "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ",Meiryo,"ＭＳ Ｐゴシック",Arial,Verdana,sans-serif;
+	text-align: left;
+	color:#000;
+	text-align: justify;
+	overflow-x: hidden;
+}
+
+body .sp-item {
+    display: none !important; }
+  body .pc-item {
+    display: block !important; }
+
+  @media screen and (max-width: 640px) {
+    body {
+      min-width: inherit;
+	  height:100%;
+	  }
+      body .sp-item {
+        display: block !important; }
+      body .pc-item {
+        display: none !important; }
+	  body .sp-item img {
+		width:100%;}
+}
+
+@media screen and (max-width: 640px) {
+	.sp img{
+		max-width:90%;
+}
+	.sp02 img{
+		max-width:100%;
+}
+.sp03 img{
+		max-width:70%;
+}
+}
+
+.fl_left {
+	float: left;
+}
+.fl_right {
+	float: right;
+}
+.ov_hd {
+	overflow: hidden;
+}
+.bg_none {
+	background-image: none!important;
+}
+a.rollover:hover {
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	-ms-filter: "alpha( opacity=70 )";
+}
+.rollover:hover {
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	-ms-filter: "alpha( opacity=70 )";
+}
+.center {
+	text-align: center;
+}
+.right {
+	text-align:right;
+}
+.line_0 {
+	line-height: 0;
+}
+.zindex {
+	z-index: 200;
+}
+input[type=radio] {
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+}
+input[type=image]:hover{
+		opacity: 0.7;
+	filter: alpha(opacity=70);
+	-ms-filter: "alpha( opacity=70 )";
+	}
+
+
+/* ----------------------------------------------------
+
+    text
+
+---------------------------------------------------- */
+em {
+	text-decoration: underline;
+  font-style: normal;
+}
+.bd_red {
+	border-bottom: 1px solid #FF0004;
+	padding-bottom: 2px;
+}
+.bd_red02 {
+	border-bottom: 3px solid #FF0004;
+	padding-bottom: 0px;
+}
+.red {
+	color: #ff0000;
+}
+.yellow {
+	background-color: #ffff00;
+}
+.gray {
+	color:#666666;
+}
+.bold {
+	font-weight: bold;
+}
+strong {
+	font-weight: bold;
+}
+.strike {
+	text-decoration: line-through;
+}
+.ac {
+	text-align: center !important;
+}
+.ar {
+	text-align: right !important;
+}
+.al {
+	text-align: left !important;
+}
+.bold {
+	font-weight: bold !important;
+}
+.font10 {
+	font-size: 10px !important;
+}
+.font11 {
+	font-size: 11px !important;
+}
+.font12 {
+	font-size: 12px !important;
+}
+.font13 {
+	font-size: 13px !important;
+}
+.font14 {
+	font-size: 14px !important;
+}
+.font15 {
+	font-size: 15px !important;
+}
+.font16 {
+	font-size: 16px !important;
+}
+.font17 {
+	font-size: 17px !important;
+	line-height:150%;
+}
+.font18 {
+	font-size: 18px !important;
+}
+.font19 {
+	font-size: 19px !important;
+}
+.font20 {
+	font-size: 20px !important;
+}
+.font21 {
+	font-size: 21px !important;
+}
+.font22 {
+	font-size: 22px !important;
+}
+.font23 {
+	font-size: 23px !important;
+}
+.font24 {
+	font-size: 24px !important;
+}
+.font25 {
+	font-size: 25px !important;
+}
+.font26 {
+	font-size: 26px !important;
+}
+.font27 {
+	font-size: 27px !important;
+}
+.font28 {
+	font-size: 28px !important;
+}
+.font29 {
+	font-size: 29px !important;
+}
+.font30 {
+	font-size: 30px !important;
+}
+.font32 {
+	font-size: 32px !important;
+}
+/* ----------------------------------------------------
+
+    float
+
+---------------------------------------------------- */
+.fr {
+	float: right !important;
+}
+.fl {
+	float: left !important;
+}
+.clear {
+	clear: both;
+}
+img {
+	line-height: 0;
+	padding: 0;
+	margin: 0;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+.clearfix {
+	min-height: 1px;
+}
+* html .clearfix {
+	height: 1px;/*¥*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
+
+hr {
+	height: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/* ----------------------------------------------------
+    clearfix の代用
+    &#60;div class="hr"&#62;&#60;hr /&#62;&#60;/div&#62;
+---------------------------------------------------- */
+
+/* ここから書いていきましょう */
+body {
+margin: 0 auto;
+max-width: 1000px;
+box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.2);
+}
+img {
+	width: 100%;
+}
+/* ----------------------------------------------------
+  cta
+---------------------------------------------------- */
+
+.cta {
+	background-image: url(../images/pc_ctabg-100.webp);
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-top: 80px;
+	padding-bottom: 20px;
+}
+.cta_area {
+	margin-top: 15px;
+}
+.inner {
+	background: #ffffff; 
+	padding-bottom:  40px;
+	margin-top: 60px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	width: 100%;
+	border: 2px solid #e52e8a;
+	width: 92%;
+	box-sizing: border-box;
+	max-width: 707px;
+}
+
+.ribon {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: -6.4%;
+}
+
+.button img {
+  display: block;
+  width: 90%;
+	margin: 0 auto;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+/* PC / SP 切り替え */
+.pc-item { display: block; }
+.sp-item { display: none; }
+
+@media screen and (max-width:750px) {
+
+.cta {
+	background-image: url(../images/sp_ctabg-100.webp);
+	background-color: #fefdf5;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: bottom;
+	margin: 0 auto;
+	padding: 60px 0 60px;
+	padding: 15px 0;
+	padding-top: 50px;
+}
+.inner {
+	background: #ffffff; 
+	padding-bottom:  20px;
+	margin: 0 auto;
+	width: 92%;
+	margin-bottom: 15px;
+	max-width: 690px;
+}
+
+}
+
